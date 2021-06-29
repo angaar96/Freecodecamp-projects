@@ -1,4 +1,3 @@
-# Roman-Numeral-Converter
-Converts an integer input into a roman numeral. All roman numerals answers should be provided in upper-case.
+# FreeCodeCamp Projects
 
-This is a FreeCodeCamp project, part of the JavaScript Objects and Data Structures certification. 
+This repository contains my solutions for various FreeCodeCamp projects I have completed on the way to getting my certifications. 
