@@ -1,0 +1,64 @@
+header {
+    font-weight: bold; 
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 25px;
+    letter-spacing: -1.4px;
+    word-spacing: -1.2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: left;
+  }
+  
+  .main-section {font-family: Georgia, serif;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    margin-top: 25px;
+  }
+  
+  a {
+  text-decoration: none;
+  border: solid 1px;
+  color: black; 
+   }
+  
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    white-space: nowrap;
+    color: black; 
+    text-decoration: none; 
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: -1.4px;
+    word-spacing: -1.2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+  }
+  body {
+    display:inline-flex;
+    justify-content: flex-start;
+    background: linear-gradient(to right, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+  }
+  
+  #jsheader {
+    border: solid 1px;
+  }
+    @media only screen and (max-width: 1024px) {
+      body {
+        flex-wrap: wrap;
+      }
+  
