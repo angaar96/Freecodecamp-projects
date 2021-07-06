@@ -1,0 +1,48 @@
+h1 {
+    font-family: sans-serif; 
+    text-align: center; 
+  }
+  
+  #description {
+    font-style: italic; 
+    font-family: sans-serif;
+    text-align: center; 
+  }
+  
+  #name-label {
+    display:block;
+  }
+  #name {
+    display: block;
+  }
+  #email-label {
+    display: block;
+  }
+  #email {
+    display:block;
+  }
+  #number-label {
+    display:block;
+  }
+  #number {
+    display: block;
+  }
+  #dropdown-label {
+    display: block; 
+  }
+  #dropdown {
+    display:block; 
+  }
+  body {
+    background: linear-gradient(277deg, rgba(2,0,36,1) 0%, rgba(81,200,189,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  #r1 {
+    display: block
+  }
+  #submit {
+    display:block;
+    width: 19.7%; 
+    
+  }
+  
+  
