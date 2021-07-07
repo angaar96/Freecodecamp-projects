@@ -1,0 +1,163 @@
+#welcome-section {
+    text-align: center;
+    height: 100vh;
+  }
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-between;
+  }
+  
+  #firsth1 {
+      font-family: "Georgia";
+      font-size: 50px;
+      padding-top: 300px;
+  }
+  #firsth2 {
+    font-style: italic; 
+    color: red;
+    font-size: 25px;
+    padding-bottom: 100px;}
+  body { 
+    background-color: #001f3f;
+  }
+  
+  #projects-intro {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  font-family: Tahoma, Geneva, sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;}
+  div {
+    width: 700px;
+  }
+  #navbar {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(to right, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+    position: fixed;
+    top: 0; 
+    margin-bottom: 20px; 
+    width: 100%; 
+  }
+  .nav-link {
+    margin: 20px;
+    color: white; 
+    font-size: 20px;
+  }
+  .nav-link:hover {
+    text-decoration: underline; 
+  }
+  #footer {
+    margin-top: 25px; 
+    border-top: solid; 
+    font-size: 15px;
+    color: white;
+    
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  #contact-section {
+    text-align: center;
+    background-color: #0074D9;
+      
+  }
+  #contact-details {
+    display: inline-flex; 
+    justify-content: center;
+  }
+  #for-style-only {
+   background-color: #800000;
+  }
+  .contact {
+    margin: 50px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none; 
+  }
+  .contact:hover {
+    transform: translate(0, 10px);
+  }
+  #secondh1 {
+    font-family: Georgia, serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  }
+  #secondh2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #navbar {
+      flex-wrap: wrap;
+    }
+  }
+    
+   img {
+     flex-grow: 1; 
+     width: 700px;  
+     height: 600px; 
+  }
+  img:hover {
+    opacity: 0.2; 
+  }
+  .project-tile {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    border: solid;
+    border-radius: 8px;
+  }
+  .project-link {
+    text-decoration: none; 
+    color: white; 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: 200;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-color: #1A242B;
+  width: 100%; 
+  text-align: center; 
+  }
+  
